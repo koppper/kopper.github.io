@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <title>Calculator</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+    <div class="main">
+        <div class="body">
+            <p id="result" class="result"></p><br>
+            <input type="text" id="calculator" placeholder="приует" readonly><br>
+            <div class="block">
+                <input type="button" value="1" onclick="calc(this.value)">
+                <input type="button" value="2" onclick="calc(this.value)">
+                <input type="button" value="3" onclick="calc(this.value)">
+
+            </div>
+
+            <div class="block">
+                <input type="button" value="4" onclick="calc(this.value)">
+                <input type="button" value="5" onclick="calc(this.value)">
+                <input type="button" value="6" onclick="calc(this.value)">
+            </div>
+        
+            <div class="block">
+				<input type="button" value="7" onclick="calc(this.value)">
+                <input type="button" value="8" onclick="calc(this.value)">
+                <input type="button" value="9" onclick="calc(this.value)">
+            </div>
+
+            <div class="block">
+                <input type="button" value="0" onclick="calc(this.value)">
+                <input type="button" value="+" onclick="sumb(this.value)">
+                <input type="button" value="-" onclick="sumb(this.value)">
+            </div>
+            <br>
+            <p id="error" class="error"></p>
+        </div>
+    </div>
+</body>
+</script>
+</html>
